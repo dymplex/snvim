@@ -14,5 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
 	{ import = 'dymple.plugins' },
-	{ import = 'dymple.lsp' }
+	{ import = 'dymple.lsp' },
+	-- require 'dymple.kickstart.autoformat'
 },{})
